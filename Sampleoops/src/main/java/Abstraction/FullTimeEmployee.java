@@ -4,7 +4,7 @@ public class FullTimeEmployee extends Employee {
 	
 	public void calculateSalary()
 	{
-		int constantWorkingHours=8;
+		
 		int paymentPerHour=500;
 		int salary=500*8;
 		System.out.println("Salary of Full time Employeec:" + salary);

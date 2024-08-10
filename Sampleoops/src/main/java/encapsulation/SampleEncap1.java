@@ -1,3 +1,4 @@
+
 package encapsulation;
 
 public class SampleEncap1 {
