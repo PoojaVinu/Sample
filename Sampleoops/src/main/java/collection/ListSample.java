@@ -42,7 +42,7 @@ public class ListSample {
 	 list4.add("isha");
 	 System.out.println(list4);
 	 list3.addAll(list4);
-	 System.out.println(list4);
+	 System.out.println("addall" + list3);
 	 
 	 Collections.sort(list3);
 	 System.out.println("Collections" +list3);
@@ -53,8 +53,9 @@ public class ListSample {
 	 System.out.println(list4);
 	 
 	 list3.remove(1);
-	 list3.remove("vinu");
+	 list4.remove("python");
 	 System.out.println(list3);
+	 System.out.println(list4);
 	 System.out.println();
 	 
 	 System.out.println("check whether the list is empty: " + list1.isEmpty());

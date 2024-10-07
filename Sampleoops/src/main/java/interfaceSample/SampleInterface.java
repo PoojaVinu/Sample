@@ -6,5 +6,5 @@ public interface SampleInterface {
 	
 	public abstract void display();
 	
-	public void print();
+	public void print();  //abstract method
 }
